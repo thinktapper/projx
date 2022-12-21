@@ -1,7 +1,9 @@
 // import { delay } from '@/lib/async'
 import Greeting from '@/components/Greeting'
 import GreetingSkeleton from '@/components/GreetingSkeleton'
+import NewProject from '@/components/NewProject'
 import ProjectCard from '@/components/ProjectCard'
+import TasksCard from '@/components/TasksCard'
 import { getUserFromCookie } from '@/lib/auth'
 import { db } from '@/lib/db'
 import { cookies } from 'next/headers'
@@ -42,10 +44,14 @@ export default async function Page() {
               </Link>
             </div>
           ))}
-          <div className="w-1/3 p-3">{/* new project here */}</div>
+          <div className="w-1/3 p-3">
+            <NewProject />
+          </div>
         </div>
         <div className="mt-6 flex-2 grow w-full flex">
-          <div className="w-full">{/* tasks here */}</div>
+          <div className="w-full">
+            <TasksCard />
+          </div>
         </div>
       </div>
     </div>

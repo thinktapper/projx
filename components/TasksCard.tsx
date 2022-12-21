@@ -28,7 +28,7 @@ const TasksCard = async ({ title, tasks }) => {
   const data = tasks || (await getData())
 
   return (
-    <Card>
+    <Card className="">
       <div className="flex justify-between items-center">
         <div>
           <span className="text-3xl text-gray-600">{title}</span>
