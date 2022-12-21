@@ -1,8 +1,8 @@
 import '@/styles/global.css'
 import { Inter } from '@next/font/google'
-import Sidebar from '@/components/Sidebar'
+import Sidebar from '@/components/SideBar'
 import clsx from 'clsx'
-import GlassPane from '@/compondents/GlassPlane'
+import GlassPane from '@/components/GlassPlane'
 
 const inter = Inter({
   variable: '--font-inter',

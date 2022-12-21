@@ -21,7 +21,7 @@
     ],
     "paths": {
       "@/lib/*": ["./lib/*"],
-      "@/compondents/*": ["./components/*"],
+      "@/components/*": ["./components/*"],
       "@/assets/*": ["./assets/*"]
     }
   },
