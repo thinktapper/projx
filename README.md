@@ -20,10 +20,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/thinktapper/projx">
-    <!-- <img src="#" alt="Logo" width="320" height=""> -->
+    <img src="https://user-images.githubusercontent.com/10656909/212664149-586aa6e1-2835-45f9-b22d-d336cba64b95.svg" alt="Logo" width="320" height="">
   </a>
 
-<h3 align="center">Projx</h3>
+<!-- <h3 align="center">Projx</h3> -->
 
   <p align="center">
     <a href="https://projx.vercel.app">Projx</a> is a powerful tool for anyone looking to improve their productivity and manage their projects more efficiently. Whether you're a small business owner, a project manager, or a freelancer, <br>
@@ -57,7 +57,7 @@
       </ul>
     </li>
     <li><a href="#how-its-made">How It's Made</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#optimizations">Optimizations</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -145,7 +145,7 @@ This project was made using React 18 and Next.js 13. I used TailwindCSS for styl
 
 <!-- ROADMAP -->
 
-## Roadmap
+## Optimizations
 
 <!-- 🏋️‍♂️ This project is still in progress ✨ -->
 
