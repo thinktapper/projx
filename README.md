@@ -53,14 +53,21 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#how-its-made">How It's Made</a></li>
     <li><a href="#optimizations">Optimizations</a></li>
+    <li>
+      <a href="#lessons-learned">Lessons Learned</a>
+      <ul>
+        <li><a href="#key-takeaways">Key Takeaways</a></li>
+      </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#license">License</a></li>
     <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
@@ -68,8 +75,8 @@
 <!-- ABOUT THE PROJECT -->
 <h2>About The Project</h2>
 
-<p>Projx is a modern project management web app developed to streamline the project management process, making it easy for users to organize and track their projects, tasks, and schedules all in one place. The app is designed to be user-friendly and intuitive, making it easy for users to navigate and get started quickly.</p>
-<p>With Projx, users can easily create and manage projects, add and assign tasks, set deadlines, and track progress.The app is designed to be user-friendly and intuitive, making it easy for users to navigate and get started quickly.</p>
+<>Projx is a modern project management web app developed to streamline the project management process, making it easy for users to organize and track their projects, tasks, and schedules all in one place. Users need to register to be able to access the app which allows them to easily create and manage projects, add and assign tasks, set deadlines, and track progress. Projx is designed to be user-friendly and intuitive, making it easy for users to navigate and get started quickly.</p>
+
 <div align="center">
 
 <!-- ![Large GIF (1144x696)](https://user-images.githubusercontent.com/10656909/192123894-85d3dc5f-7ca6-4977-b076-acff51520c55.gif) -->
@@ -92,13 +99,16 @@
 
 ## Getting Started
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 <details name="instructions">
   <summary>Instructions</summary>
 
+### Prerequisites
+
+You’ll need to have modern versions of node.js (LTS ^16.18 recommend) and yarn or npm installed.
+
 ### Installation
 
+<!-- prettier-ignore-start -->
 1. Clone the repo
    ```sh
    git clone https://github.com/thinktapper/projx.git && cd projx
@@ -107,12 +117,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
    ```sh
    npm install
    ```
-3. Rename the `.env.example` file in the root directory
+3. Set up the environment variables:
    ```sh
-   mv -v .env.example .env
+   cp -v .env.example .env
    ```
-4. Enter your local or remote Postgres DB URL and JWT secret
-
+4. Open `.env` and enter your local or remote Postgres DB URL and JWT secret
    ```js
    DATABASE_URL = ''
 
@@ -120,16 +129,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
    JWT_SECRET = ''
    ```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
+5. Create the database schema:
+   ```sh
+   npx prisma db push
+   ```
+6. Then, run the development server:
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+This is a [Next.js](https://beta.nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- prettier-ignore-end -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,10 +167,36 @@ With time, I would like to add the following features:
 - [ ] Add a dark mode
 - [ ] Add a search bar to easily find projects and tasks.
 - [ ] Add a calendar view for easy scheduling.
-- [ ] Add more detailed documentation
+- [ ] Create profile or social pages for users.
+- [ ] Add a drag and drop feature to easily move tasks between projects.
+- [ ] Add a notification system to keep users up to date on project progress.
+- [ ] Add a changelog to keep track of project updates.
+- [ ] Add more detailed documentation.
 - [ ] Create a mobile version of the app.
 
 See the [open issues](https://github.com/thinktapper/projx/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LESSONS LEARNED -->
+
+## Lessons Learned:
+
+This full-stack project was a great way for me to learn about the new React 18 server components and how to use the new app directory structure introduced in Next.js 13. I learned by building Projx from scratch — From design spec to deployment — Using React, Node.js, TypeScript, Postgres.
+
+### Key Takeaways:
+
+<ul>
+  <li>Strengthened skills needed to plan, scope, research, and deploy a full-stack web app.</li>
+  <li>Practiced using TypeScript for better type safety and code quality.</li>
+  <li>Practiced using TailwindCSS to quickly build out a UI from a design spec.</li>
+  <li>Learned how to build out and deploy a serverless API.</li>
+  <li>Practiced utilizing middleware to protect my app from unauthenticated users.</li>
+  <li>Learned how and when to use React Server Components to render content server-side, and when client-side components are necessary.</li>
+  <li>Learned how to use the new React 18 Suspense component to render loading states.</li>
+  <li>Learned how to set up continuous deployment with CI.</li>
+  <li>Gained experience debugging and troubleshooting TypeScript and ESLint build errors and deployment issues.</li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,14 +217,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
@@ -196,6 +227,14 @@ Project Link: [https://github.com/thinktapper/projx](https://github.com/thinktap
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
+
+## License
+
+Distributed under the GNU GPLv3. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- ACKNOWLEDGMENTS -->
 
 <!-- ## Acknowledgments
@@ -203,26 +242,6 @@ Project Link: [https://github.com/thinktapper/projx](https://github.com/thinktap
 - []()
 - []()
 - []() -->
-
-## Lessons Learned:
-
-I learned about product life-cyle management by building Projx from scratch — From design spec to deployment — Using React, Node.js, TypeScript, Postgres. This full-stack productivity app was a great way to learn about React server components and how to use the new app directory structure introduced in Next.js 13.
-
-### Key takeaways:
-
-<ul>
-  <li>Strengthened skills needed to plan, scope, research, and deploy a full-stack web app.</li>
-  <li>Practiced using TypeScript for better type safety and code quality.</li>
-  <li>Practiced using TailwindCSS to quickly build out a UI from a design spec.</li>
-  <li>Learned how to build out and deploy a serverless API.</li>
-  <li>Practiced using middleware to protect our app from unauthenticated users.</li>
-  <li>Learned how and when to use the new React 18 Server Components to render server-side components.</li>
-  <li>Learned how to use the new React 18 Suspense component to render loading states.</li>
-  <li>Learned how to set up continuous deployment with CI.</li>
-  <li>Gained experience debugging and troubleshooting build errors and deployment issues TypeScript and ESLint.</li>
-</ul>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -264,3 +283,11 @@ I learned about product life-cyle management by building Projx from scratch — 
 [prisma-url]: https://prisma.io
 [postgresql]: https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
 [postgresql-url]: https://postgresql.org/
+[typescript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org/
+[madewith-typescript]: https://img.shields.io/badge/made%20with-typescript-blue?style=for-the-badge
+[madewith-typescript-url]: https://www.typescriptlang.org/
+[madewith-love]: https://img.shields.io/badge/made%20with-%E2%9D%A4-red?style=for-the-badge
+[madewith-love-url]: https://tapper.codes
+[madeby-tapper]: https://img.shields.io/badge/made%20by-tapper-blue?style=for-the-badge
+[madeby-tapper-url]: https://tapper.codes
