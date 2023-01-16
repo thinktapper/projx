@@ -149,11 +149,13 @@ This project was made using React 18 and Next.js 13. I used TailwindCSS for styl
 
 <!-- 🏋️‍♂️ This project is still in progress ✨ -->
 
-I plan to add the following features:
+With time, I would like to add the following features:
 
-- [ ] Add a calendar view for easy scheduling and a dashboard for quick access to important information.
 - [ ] Add a dark mode
+- [ ] Add a search bar to easily find projects and tasks.
+- [ ] Add a calendar view for easy scheduling.
 - [ ] Add more detailed documentation
+- [ ] Create a mobile version of the app.
 
 See the [open issues](https://github.com/thinktapper/projx/issues) for a full list of proposed features (and known issues).
 
@@ -206,16 +208,19 @@ Project Link: [https://github.com/thinktapper/projx](https://github.com/thinktap
 
 I learned about product life-cyle management by building Projx from scratch — From design spec to deployment — Using React, Node.js, TypeScript, Postgres. This full-stack productivity app was a great way to learn about React server components and how to use the new app directory structure introduced in Next.js 13.
 
-Key takeaways:
--> Strengthened skills needed to plan, scope, research, and deploy a full-stack web app.
--> Practiced using TypeScript for better type safety and code quality.
--> Practiced using TailwindCSS to quickly build out a UI from a design spec.
--> Learned how to build out and deploy a serverless API.
--> Practiced using middleware to protect our app from unauthenticated users.
--> Learned how and when to use the new React 18 Server Components to render server-side components.
--> Learned how to use the new React 18 Suspense component to render loading states.
--> Learned how to set up continuous deployment with CI.
--> Gained experience debugging and troubleshooting build errors and deployment issues TypeScript and ESLint.
+### Key takeaways:
+
+<ul>
+  <li>Strengthened skills needed to plan, scope, research, and deploy a full-stack web app.</li>
+  <li>Practiced using TypeScript for better type safety and code quality.</li>
+  <li>Practiced using TailwindCSS to quickly build out a UI from a design spec.</li>
+  <li>Learned how to build out and deploy a serverless API.</li>
+  <li>Practiced using middleware to protect our app from unauthenticated users.</li>
+  <li>Learned how and when to use the new React 18 Server Components to render server-side components.</li>
+  <li>Learned how to use the new React 18 Suspense component to render loading states.</li>
+  <li>Learned how to set up continuous deployment with CI.</li>
+  <li>Gained experience debugging and troubleshooting build errors and deployment issues TypeScript and ESLint.</li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
