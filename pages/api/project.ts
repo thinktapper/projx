@@ -7,7 +7,11 @@ export default async function handler(req, res) {
   await db.project.create({
     data: {
       name: req.body.name,
-      ownerId: user.id,
+      owner: {
+        connect: {
+          id: user.id,
+        },
+      },
     },
   })
 
