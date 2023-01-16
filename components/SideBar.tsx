@@ -1,6 +1,6 @@
 import Card from './Card'
 import Image from 'next/image'
-import logo from '@/assets/images/logo/vector/isolated-layout.svg'
+import logo from '@/assets/images/logo/vector/isolated-monochrome-black.svg'
 import SideBarLink from './SideBarLink'
 
 const links = [
