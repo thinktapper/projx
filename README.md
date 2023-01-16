@@ -87,9 +87,10 @@
 
 ### Built With
 
-- [![Next][next.js]][next-url]
 - [![React][react.js]][react-url]
+- [![Next][next.js]][next-url]
 - [![Prisma][prisma]][prisma-url]
+- [![TypeScript][typescript]][typescript-url]
 - [![PostgreSQL][postgresql]][postgresql-url]
 - [![tailwindcss][tailwindcss]][tailwindcss-url]
 
@@ -221,6 +222,10 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
+<!-- [![MadeWithLove][madewith-love]][madewith-love-url] -->
+
+[![MadeByTapper][madeby-tapper]][madeby-tapper-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+
 Andrew Tapper - [@thinktapper](https://twitter.com/thinktapper) - andrew@tapper.codes
 
 Project Link: [https://github.com/thinktapper/projx](https://github.com/thinktapper/projx)
@@ -230,6 +235,8 @@ Project Link: [https://github.com/thinktapper/projx](https://github.com/thinktap
 <!-- LICENSE -->
 
 ## License
+
+[![GNU License][license-shield]][license-url]
 
 Distributed under the GNU GPLv3. See `LICENSE` for more information.
 
@@ -246,18 +253,18 @@ Distributed under the GNU GPLv3. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/thinktapper/dinder/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/thinktapper/dinder/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/thinktapper/dinder/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/thinktapper/dinder/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/thinktapper/dinder/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/thinktapper/projx.svg?style=for-the-badge
+[contributors-url]: https://github.com/thinktapper/projx/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/thinktapper/projx.svg?style=for-the-badge
+[forks-url]: https://github.com/thinktapper/projx/network/members
+[stars-shield]: https://img.shields.io/github/stars/thinktapper/projx.svg?style=for-the-badge
+[stars-url]: https://github.com/thinktapper/projx/stargazers
+[issues-shield]: https://img.shields.io/github/issues/thinktapper/projx.svg?style=for-the-badge
+[issues-url]: https://github.com/thinktapper/projx/issues
+[license-shield]: https://img.shields.io/github/license/thinktapper/projx.svg?style=for-the-badge
+[license-url]: https://github.com/thinktapper/projx/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/thinktapper
 [product-screenshot]: images/screenshot.png
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://beta.nextjs.org/
