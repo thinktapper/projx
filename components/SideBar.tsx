@@ -1,6 +1,6 @@
 import Card from './Card'
 import Image from 'next/image'
-import logo from '@/assets/images/logo.jpg'
+import logo from '@/assets/images/logo/vector/isolated-monochrome-black.svg'
 import SideBarLink from './SideBarLink'
 
 const links = [
@@ -24,8 +24,8 @@ const Sidebar = () => {
       <div className="w-full flex justify-center items-center">
         <Image src={logo} alt="Able logo" priority className="w-14" />
       </div>
-      {links.map((link) => (
-        <SideBarLink link={link} />
+      {links.map((link, index) => (
+        <SideBarLink key={index} link={link} />
       ))}
     </Card>
   )
