@@ -79,7 +79,7 @@ https://user-images.githubusercontent.com/10656909/212853498-e820c65c-e45f-4d47-
 <!-- ABOUT THE PROJECT -->
 <h2>About The Project</h2>
 
-<>Projx is a modern project management web app developed to streamline the project management process, making it easy for users to organize and track their projects, tasks, and schedules all in one place. Users need to register to be able to access the app which allows them to easily create and manage projects, add and assign tasks, set deadlines, and track progress. Projx is designed to be user-friendly and intuitive, making it easy for users to navigate and get started quickly.</p>
+<p>Projx is a modern project management web app developed to streamline the project management process, making it easy for users to organize and track their projects, tasks, and schedules all in one place. Users need to register to be able to access the app which allows them to easily create and manage projects, add and assign tasks, set deadlines, and track progress. Projx is designed to be user-friendly and intuitive, making it easy for users to navigate and get started quickly.</p>
 
 <div align="center">
 
