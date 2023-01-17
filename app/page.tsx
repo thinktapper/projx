@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function LandingPage() {
   return (
-    <>
+    <div>
       {/* <Image src={landingLogo} /> */}
       <Card className="px-6 py-8 hover:scale-105 transition-all ease-in-out duration-200">
         <div className="w-full">
@@ -24,6 +24,6 @@ export default function LandingPage() {
           </div>
         </div>
       </Card>
-    </>
+    </div>
   )
 }

@@ -6,7 +6,11 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-export default function AuthRootLayout({ children }) {
+export default function AuthRootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en" className={inter.variable}>
       <head />
