@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/10656909/212853498-e820c65c-e45f-4d47-
 <!-- <h3 align="center">Projx</h3> -->
 
   <p align="center">
-    Projx is a powerful tool for anyone looking to improve their productivity and manage their projects more efficiently. Whether you're a small business owner, a project manager, or a freelancer, <br>
+    A powerful tool for anyone looking to improve their productivity and manage their projects more efficiently. Whether you're a small business owner, a project manager, or a freelancer, <br>
     <strong>Projx is the missing piece in your project puzzle.</strong>
     <br />
     <a href="#readme-toc"><strong>Explore the docs »</strong></a>
