@@ -3,19 +3,20 @@ import Image from 'next/image'
 import logo from '@/assets/images/logo/vector/isolated-monochrome-black.svg'
 import SideBarLink from './SideBarLink'
 import Link from 'next/link'
+import { signout } from '../actions/signout'
 
 const links = [
   // { label: 'Home', icon: 'Grid', link: '/home' },
   {
     label: 'Calendar',
     icon: 'Calendar',
-    link: '#',
+    link: '/',
   },
   { label: 'Profile', icon: 'User', link: '#' },
   {
     label: 'Settings',
     icon: 'Settings',
-    link: '#',
+    link: '/',
   },
 ]
 
@@ -28,6 +29,13 @@ const Sidebar = () => {
       {links.map((link, index) => (
         <SideBarLink key={index} link={link} />
       ))}
+      <div className="w-full flex justify-center items-center">
+        <button
+          onClick={() => signout()}
+          className="text-sm text-gray-500 hover:text-gray-700">
+          Sign out
+        </button>
+      </div>
     </Card>
   )
 }
