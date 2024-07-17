@@ -1,3 +1,5 @@
+'use client'
+
 import Card from './Card'
 import Image from 'next/image'
 import logo from '@/assets/images/logo/vector/isolated-monochrome-black.svg'
